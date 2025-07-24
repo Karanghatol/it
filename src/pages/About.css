@@ -1,0 +1,165 @@
+/* About.css */
+
+/* Hero Section */
+.bg-hero-gradient {
+    background: linear-gradient(135deg, #4a90e2, #007acc);
+  }
+  
+  /* Icon Box for Mission & Vision */
+  .icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #007acc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-box.green {
+    background-color: #28a745;
+  }
+  
+  /* Badge box on hero image */
+  .badge-box {
+    transform: translate(50%, 50%);
+    padding: 1rem 1.5rem;
+    background: linear-gradient(45deg, #007acc, #004a99);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Values Section */
+  .value-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .value-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 122, 204, 0.3);
+  }
+  
+  .icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #007acc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem auto;
+  }
+  
+  /* Timeline */
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #007acc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+  
+  .timeline-item {
+    padding: 1rem 2rem;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+    text-align: right;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #007acc;
+    border-radius: 50%;
+    top: 15px;
+    z-index: 1;
+  }
+  
+  .timeline-item.left::before {
+    right: -10px;
+  }
+  
+  .timeline-item.right::before {
+    left: -10px;
+  }
+  
+  .timeline-content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  }
+  
+  /* Quickly Find Section */
+  section ul {
+    padding-left: 1rem;
+    list-style: none;
+  }
+  
+  section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    color: #007acc;
+  }
+  
+  section ul li span {
+    color: #007acc;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+  
+  section ul li a {
+    color: #007acc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  section ul li a:hover,
+  section ul li a:focus {
+    color: #004a99;
+    text-decoration: underline;
+    outline: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .timeline-item,
+    .timeline-item.left,
+    .timeline-item.right {
+      width: 100%;
+      text-align: left !important;
+      left: 0 !important;
+      padding-left: 3rem;
+      padding-right: 1rem;
+    }
+  
+    .timeline-item::before {
+      left: 0 !important;
+    }
+  }
+  

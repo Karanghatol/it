@@ -1,0 +1,68 @@
+/* Background gradients for program icons */
+.program-gradient-blue-purple {
+    background: linear-gradient(90deg, #3b82f6, #7c3aed); /* blue to purple */
+  }
+  
+  .program-gradient-teal-green {
+    background: linear-gradient(90deg, #14b8a6, #22c55e); /* teal to green */
+  }
+  
+  .program-gradient-green-blue {
+    background: linear-gradient(90deg, #22c55e, #2563eb); /* green to blue */
+  }
+  
+  .program-gradient-red-orange {
+    background: linear-gradient(90deg, #ef4444, #f97316); /* red to orange */
+  }
+  
+  .program-gradient-purple-pink {
+    background: linear-gradient(90deg, #8b5cf6, #ec4899); /* purple to pink */
+  }
+  
+  .program-gradient-orange-red {
+    background: linear-gradient(90deg, #f97316, #ef4444); /* orange to red */
+  }
+  
+  /* Hero background gradient */
+  .bg-gradient-hero {
+    background: linear-gradient(90deg, #1e3a8a, #1e40af, #0f766e);
+  }
+  
+  /* Card image scale on hover */
+  .img-hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .img-hover-scale {
+    transform: scale(1.05);
+  }
+  
+  /* Program icon container */
+  .program-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+  }
+  
+  /* Highlight dot */
+  .highlight-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #0d6efd; /* Bootstrap primary */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Award icon */
+  .award-icon {
+    width: 32px;
+    height: 32px;
+    box-shadow: 0 0 8px rgb(13 110 253 / 0.5);
+    transition: transform 0.2s ease;
+  }
+  
+  .award-icon:hover {
+    transform: scale(1.1);
+  }
+  

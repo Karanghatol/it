@@ -1,0 +1,33 @@
+.lab-img-container {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+  }
+  
+  .lab-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .lab-icon-container {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .lab-icon {
+    color: white;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .feature-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #0d6efd;
+    border-radius: 50
+  }

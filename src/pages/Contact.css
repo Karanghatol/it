@@ -1,0 +1,14 @@
+/* Contact.css */
+
+.map-placeholder {
+    height: 200px;
+    background-color: #dee2e6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  

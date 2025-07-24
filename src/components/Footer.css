@@ -1,0 +1,111 @@
+/* Footer.css */
+
+/* Overall footer background and padding */
+footer {
+    background-color: #121212; /* dark background to match bg-dark */
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Container padding */
+  footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  /* Footer headings */
+  footer h6 {
+    font-weight: 600;
+    color: #f8f9fa;
+    margin-bottom: 1rem;
+  }
+  
+  /* Links inside footer */
+  .footer-link {
+    color: #adb5bd; /* muted light gray */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .footer-link:hover,
+  .footer-link:focus {
+    color: #0dcaf0; /* bootstrap cyan for hover */
+    text-decoration: underline;
+  }
+  
+  /* Dots before links */
+  footer .dot {
+    height: 6px;
+    width: 6px;
+    background-color: #0dcaf0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  /* Social icons styling */
+  .social-icon {
+    color: #adb5bd;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  .social-icon:hover {
+    color: #0dcaf0;
+    background-color: #212529;
+  }
+  
+  /* Icon box spacing */
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Text-muted small text in footer */
+  footer .text-muted {
+    color: #adb5bd !important;
+    font-size: 0.875rem;
+  }
+  
+  /* Footer bottom bar */
+  footer .bg-black-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #6c757d;
+  }
+  
+  /* Address formatting inside contact section */
+  footer .address-lines {
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    footer .container .row > div {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    footer .d-flex.flex-md-row {
+      flex-direction: column !important;
+      gap: 0.5rem;
+    }
+  
+    footer .icon-box {
+      justify-content: center;
+    }
+  
+    footer .social-icon {
+      margin: 0 auto;
+    }
+  }
+  

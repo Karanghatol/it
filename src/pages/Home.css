@@ -1,0 +1,116 @@
+/* Hero Background */
+.hero-section {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: none;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.55);
+    z-index: 1;
+  }
+  .hero-section > .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Gradient text */
+  .text-gradient {
+    background: linear-gradient(90deg, #3b82f6, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Hero description */
+  .hero-description {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Buttons */
+  .btn-gradient {
+    background: linear-gradient(90deg, #3b82f6, #14b8a6);
+    border: none;
+    box-shadow: 0 4px 15px rgb(59 130 246 / 0.4);
+    transition: all 0.3s ease;
+  }
+  .btn-gradient:hover {
+    box-shadow: 0 6px 25px rgb(59 130 246 / 0.6);
+    transform: scale(1.05);
+  }
+  
+  /* Scroll indicator */
+  .scroll-indicator {
+    width: 36px;
+    height: 60px;
+  }
+  .scroll-container {
+    width: 24px;
+    height: 48px;
+    border-width: 2.5px;
+    border-color: rgba(255 255 255 / 0.5);
+    padding: 6px;
+  }
+  .scroll-dot {
+    width: 6px;
+    height: 18px;
+    background-color: rgba(255 255 255 / 0.7);
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: translateY(0); }
+    50% { opacity: 0.4; transform: translateY(6px); }
+  }
+  
+  /* Stats icons container */
+  .stat-box {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(90deg, #3b82f6, #14b8a6);
+    box-shadow: 0 3px 12px rgb(59 130 246 / 0.5);
+  }
+  
+  /* Feature cards */
+  .feature-card {
+    transition: all 0.3s ease;
+    cursor: default;
+  }
+  .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgb(0 0 0 / 0.15);
+  }
+  
+  /* Icon boxes with gradients */
+  .bg-gradient-software {
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  }
+  .bg-gradient-data {
+    background: linear-gradient(90deg, #14b8a6, #22c55e);
+  }
+  .bg-gradient-cyber {
+    background: linear-gradient(90deg, #ef4444, #f97316);
+  }
+  .bg-gradient-ai {
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background: linear-gradient(90deg, #1e3a8a, #1e40af, #0f766e);
+  }
+  .btn-cta {
+    background: white;
+    color: #1e40af;
+    transition: all 0.3s ease;
+  }
+  .btn-cta:hover {
+    background: #c7dafe;
+    color: #1e40af;
+    transform: scale(1.05);
+  }
+  
