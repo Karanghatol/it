@@ -105,6 +105,24 @@
   transform: scale(1.05);
 }
 
+/* Placement Logos */
+.placement-logo {
+  height: 50px;          
+  width: auto;           
+  margin: 0 12px;        
+  object-fit: contain;   
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;       
+  gap: 15px;
+}
+
 /* Responsive Fixes */
 @media (max-width: 768px) {
   .hero-title {
@@ -113,5 +131,9 @@
   .stat-box {
     width: 48px;
     height: 48px;
+  }
+  .placement-logo {
+    height: 35px;        
+    margin: 8px;
   }
 }
