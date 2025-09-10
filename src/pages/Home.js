@@ -184,7 +184,7 @@ const Home = () => {
                 </p>
                 <div className="text-center mt-3 logo-container">
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    src="C:\Users\lenovo\Documents\Photoshop projects\Social media posts\KAujla_MFgabaru.jpg"
                     alt="Facebook Logo"
                     className="placement-logo"
                     loading="lazy"
