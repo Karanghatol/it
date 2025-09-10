@@ -126,7 +126,7 @@ const Home = () => {
                   Over 2,500 students successfully placed across diverse industries in the
                   last 5 years.
                 </p>
-                <div className="text-center mt-3">
+                <div className="text-center mt-3 logo-container">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/0/08/Google_Logo.svg"
                     alt="Google Logo"
@@ -182,7 +182,7 @@ const Home = () => {
                 <p className="text-muted text-center flex-grow-1">
                   We collaborate with industry leaders for excellent placement opportunities.
                 </p>
-                <div className="text-center mt-3">
+                <div className="text-center mt-3 logo-container">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
                     alt="Facebook Logo"
